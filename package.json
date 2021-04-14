@@ -1,5 +1,5 @@
 {
-  "name": "forextraininglamp",
+  "name": "forextradinglamp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "netlify-cli": "^3.16.1",
     "netlify-identity-widget": "^1.9.1",
     "next": "10.1.3",
     "react": "17.0.2",
