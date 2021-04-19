@@ -2,32 +2,48 @@
 @tailwind utilities;
 @tailwind components;
 
-
 @layer utilities {
-
-    .header{
+    .header {
         @apply text-white;
-        min-height: 75vh;
+        min-height: 650px;
         /* background-image:url("./home/digitechub/apps/netlify/forextradinglamp/public/images/liquid_back.png") */
     }
 }
 
-/* @layer base {
+@layer base {
     @font-face {
-      font-family: Proxima Nova;
-      font-weight: 400;
-      src: url(/fonts/proxima-nova/400-regular.woff) format("woff");
+        font-family: Inter;
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src: url("../../public/fonts/inter/Inter-Regular.ttf") format("ttf");
     }
     @font-face {
-      font-family: Proxima Nova;
-      font-weight: 500;
-      src: url(/fonts/proxima-nova/500-medium.woff) format("woff");
+        font-family: Inter;
+        font-weight: 500;
+        font-style: medium;
+        font-display: swap;
+        src: url("../../public/fonts/inter/Inter-Medium.ttf") format("ttf");
     }
-
-    h1 {
-        @apply text-2xl;
-      }
-      h2 {
-        @apply text-xl;
+    @font-face {
+        font-family: Inter;
+        font-weight: 700;
+        font-weight: bold;
+        font-display: swap;
+        src: url("../../public/fonts/inter/Inter-Bold.ttf") format("ttf");
     }
-} */
+    @font-face {
+        font-family: Inter;
+        font-weight: 700;
+        font-weight: "extrabold";
+        font-display: swap;
+        src: url("../../public/fonts/inter/Inter-ExtraBold.ttf") format("ttf");
+    }
+    @font-face {
+        font-family: Inter;
+        font-weight: black;
+        font-weight: 900;
+        font-display: swap;
+        src: url("../../public/fonts/inter/Inter-Black.ttf") format("ttf");
+    }
+}

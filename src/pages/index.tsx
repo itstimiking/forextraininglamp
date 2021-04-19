@@ -7,6 +7,8 @@ import { AuthContext } from "../context/auth";
 import NavTop from "./components/TopNav";
 import TopBar from "./components/TopBar";
 import Banner from './components/Banner'
+import BannerBar from "./components/BannerBar";
+import CallToAction from "./components/CallToAction";
 
 export default function Home() {
 
@@ -26,10 +28,16 @@ export default function Home() {
                 ogUrl="https://forextradinglamp.com"
             />
             <main>
+                
+
+                <div className="absolute z-0 w-full">
+
+                    <Banner />
+                    <CallToAction />
+                </div>
+
                 <TopBar />
                 <NavTop />
-
-                <Banner />
                 
             </main>
 

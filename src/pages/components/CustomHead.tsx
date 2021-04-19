@@ -40,6 +40,11 @@ const CustomHead: React.FunctionComponent<CustomHeadProps> = ({
             <meta property="og:site_name" content={ogSiteName} />
 
             <meta name="twitter:card" content="summary_large_image" />
+
+            <link rel="preload" href="./public/fonts/inter/Inter-Regular.ttf" as="font" crossOrigin="" />
+            <link rel="preload" href="./public/fonts/inter/Inter-Medium.ttf" as="font" crossOrigin="" />
+            <link rel="preload" href="./public/fonts/inter/Inter-Bold.ttf" as="font" crossOrigin="" />   
+            <link rel="preload" href="./public/fonts/inter/Inter-Black.ttf" as="font" crossOrigin="" />
         </Head>
     );
 };
