@@ -3,7 +3,7 @@ import React from "react";
 function CallToAction() {
     return (
         <div className="w-full min-h-0 bg-black">
-            <div className="lg:container md:mx-auto px-8 py-20">
+            <div className="lg:container md:mx-auto px-8 py-10">
                 <div className="w-full flex flex-wrap">
                     <div className="w-full sm:w-2/3 lg:w-1/2">
                         <h2 className="text-3xl md:text-4xl text-gray-200 font-black">
